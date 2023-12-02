@@ -1,0 +1,31 @@
+.theme-switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .theme-switch.dark {
+    background-color: #ccc;
+  }
+  
+  .slider {
+    width: 24px;
+    height: 24px;
+    background-color: #fff ;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .theme-switch.dark .slider {
+    transform: translateX(25px);
+  }
+  
