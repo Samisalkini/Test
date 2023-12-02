@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import profileImage from "D://portfolio/src/profile.jpg";
+import profileImage from "../profile.jpg";
 
 const Sidebar = () => {
   return (
